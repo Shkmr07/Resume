@@ -1,0 +1,54 @@
+ body{
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 50%;
+  margin: auto;
+ }
+ .header{
+  display: flex;
+  align-items: center;
+ }
+ .face{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+margin-top: 20px
+ }
+ .title{
+  flex: 1;
+  margin-left: 20px;
+ }
+ .name{
+  color: grey;
+ }
+ .coral{
+  color: coral;
+ }
+ .qulification{
+  letter-spacing: 1px;
+ }
+ .hrline{
+  border: 1px solid coral;
+ }
+
+ .space{
+min-width: 300px;
+ }
+ .size{
+  font-size: 22px;
+  color: coral;
+ }
+
+ .gap{
+  border-spacing: 10px;
+ }
+
+ .jobposition{
+  font-size: 20px;
+  line-height: 25px;
+ }
+
+ .jobduration{
+  font-weight: 100;
+  line-height: 25px;
+ }
